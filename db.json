@@ -1,0 +1,94 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "genres": ["Drama"],
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "rating": 9.3,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDE3ODM4Mzc5MV5BMl5BanBnXkFtZTgwNTI2NTY4OTE@._V1_SX300.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "year": 1972,
+      "genres": ["Crime", "Drama"],
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "rating": 9.2,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTRkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "genres": ["Crime", "Drama"],
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "rating": 8.9,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtMGU5MC00MGM4LWINWM9LThkY2Y3NTY1NWRkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genres": ["Action", "Crime", "Drama"],
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "rating": 9.0,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Parasite",
+      "year": 2019,
+      "genres": ["Thriller", "Drama", "Comedy"],
+      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "rating": 8.5,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODA5NS00NWMwLWFkNzItYTYwYTk1ODAyYmMyXkEyXkFqcGdeQXVyMTA1OTI1NDM2._V1_SX300.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Spirited Away",
+      "year": 2001,
+      "genres": ["Animation", "Adventure", "Family"],
+      "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+      "rating": 8.6,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjlmZDI2MTEtYWIwYy00ABM5LTg1YjgtYmQ4NWNhM2EwZTU0XkEyXkFqcGdeQXVyNjgwODEzMzc@._V1_SX300.jpg"
+    },
+    {
+      "id": 7,
+      "title": "2001: A Space Odyssey",
+      "year": 1968,
+      "genres": ["Sci-Fi", "Adventure"],
+      "description": "After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets out on a quest to find its origins with help from the intelligent supercomputer H.A.L. 9000.",
+      "rating": 8.3,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMmNlYmU1MTYtNmJjMC00MmM4LWIwMTYtOENFODNlMzYwMzU5XkEyXkFqcGdeQXVyOTk0NTE0OTA@._V1_SX300.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "genres": ["Sci-Fi", "Action", "Thriller"],
+      "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for 30 years.",
+      "rating": 8.0,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the help of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "rating": 8.1,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtYjQ3Yy00M2FmLTgwYTYtZDVZNzEyYjRiM2YwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "genres": ["Action", "Adventure", "Drama"],
+      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "rating": 8.8,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTYxLWI2YmQtMDFmMDYxY2YxMDFjXkEyXkFqcGdeQXVyNDg4NjYxOTA@._V1_SX300.jpg"
+    }
+  ]
+}
