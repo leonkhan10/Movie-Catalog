@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, input, output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-modal',
   imports: [CommonModule],
   template: `
-    @if (isOpen) {
+    @if (isOpen()) {
     <div
       class="modal fade show d-block"
       tabindex="-1"
@@ -28,8 +28,9 @@ import { CommonModule } from '@angular/common';
   `,
 })
 export class Modal {
-  @Input() isOpen = false;
-  @Output() closed = new EventEmitter<void>();
+  isOpen = input(false);
+
+  closed = output<void>();
 
   onClose() {
     this.closed.emit();

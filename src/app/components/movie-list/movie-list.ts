@@ -26,11 +26,11 @@ import { MovieService } from '../../services/movie';
       <header
         class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-4"
       >
-        <h1 class="mb-3 mb-md-0">Каталог фильмов</h1>
+        <h1 class="mb-3 mb-md-0">Movies Catolog</h1>
         <input
           type="search"
           class="form-control w-100 w-md-50"
-          placeholder="Поиск фильмов..."
+          placeholder="search Movies.."
           [formControl]="searchControl"
         />
       </header>
@@ -87,7 +87,7 @@ export class MovieList implements OnInit {
     this.selectedMovie.set(null);
   }
 
-  trackByMovieId(index: number, movie: Movie): number {
+  trackByMovieId(movie: Movie): number {
     return movie.id;
   }
 }

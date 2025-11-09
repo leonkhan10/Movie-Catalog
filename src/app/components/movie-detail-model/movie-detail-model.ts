@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Movie } from '../../interfaces/movie';
 
@@ -16,21 +16,21 @@ import { Movie } from '../../interfaces/movie';
 
         <div class="col-md-8">
           <header class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="mb-0">{{ movie.title }}</h2>
-            <span class="badge bg-info text-dark">{{ movie.year }}</span>
+            <h2 class="mb-0">{{ movie().title }}</h2>
+            <span class="badge bg-info text-dark">{{ movie().year }}</span>
           </header>
 
           <div class="mb-2">
-            @for (genre of movie.genres; track movie) {
+            @for (genre of movie().genres; track genre) {
             <span class="badge bg-secondary me-1">{{ genre }}</span>
             }
           </div>
 
-          <p class="text-muted">{{ movie.description }}</p>
+          <p class="text-muted">{{ movie().description }}</p>
 
           <div class="mt-3">
             <span class="fw-bold">Rating:</span>
-            <span class="badge bg-success">{{ movie.rating }}</span>
+            <span class="badge bg-success">{{ movie().rating }}</span>
           </div>
         </div>
       </div>
@@ -38,5 +38,4 @@ import { Movie } from '../../interfaces/movie';
   `,
 })
 export class MovieDetailModel {
-  @Input({ required: true }) movie!: Movie;
-}
+movie = input.required<Movie>();}
